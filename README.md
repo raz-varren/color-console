@@ -1,4 +1,4 @@
-[__Godoc.org__](https://godoc.org/github.com/raz-varren/color-console "Color-Console Documentation")
+[![GoDoc](https://godoc.org/github.com/raz-varren/color-console?status.svg)](https://godoc.org/github.com/raz-varren/color-console "Color-Console documentation")
 
 Color-Console
 =============
