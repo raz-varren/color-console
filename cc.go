@@ -63,15 +63,15 @@ func PrintAvailableColors() {
 }
 
 func Print(color ANSIColor, v ...interface{}) (int, error) {
-	return Fprint(color, defaultCC.out, v...)
+	return defaultCC.Print(color, v...)
 }
 
 func Printf(color ANSIColor, format string, v ...interface{}) (int, error) {
-	return Fprintf(color, defaultCC.out, format, v...)
+	return defaultCC.Printf(color, format, v...)
 }
 
 func Println(color ANSIColor, v ...interface{}) (int, error) {
-	return Fprintln(color, defaultCC.out, v...)
+	return defaultCC.Println(color, v...)
 }
 
 func Fprint(color ANSIColor, w io.Writer, v ...interface{}) (int, error) {
